@@ -126,14 +126,6 @@ const SocialOptions = ({ post }: { post: IPostDocument }) => {
                     <MessageCircleMore />
                     <p>Message</p>
                 </Button>
-                <Button variant={'ghost'} className='flex items-center gap-1 rounded-lg text-gray-600 hover:text-black'>
-                    <Repeat />
-                    <p>Repost</p>
-                </Button>
-                <Button variant={'ghost'} className='flex items-center gap-1 rounded-lg text-gray-600 hover:text-black'>
-                    <Send />
-                    <p>Send</p>
-                </Button>
             </div>
             {commentOpen && (
                 <div className='p-4'>
