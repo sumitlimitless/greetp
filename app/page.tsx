@@ -3,7 +3,7 @@ import Sidebar from "@/components/Sidebar";
 import { IPostDocument } from "@/models/post.model";
 import { currentUser } from "@clerk/nextjs/server";
 
-export default async function Home({ post }: { post: IPostDocument | undefined }) {
+export default async function Home() {
   const user = await currentUser();
 
   return (
